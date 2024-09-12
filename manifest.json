@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Tab Color Changer",
+    "name": "Danger Tabs",
     "version": "1.0",
-    "description": "Changes the tab color based on the URL.",
+    "description": "Add warnings for specific tabs with specific content for people developing against local vs prod sites in multiple tabs.",
     "permissions": [
         "tabs",
         "activeTab",
