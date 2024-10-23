@@ -31,7 +31,7 @@ function tabWarning(url) {
                 const isProdBuilder = url.includes("https://builder.io") || url.includes("https://www.builder.io");
                 const isLocalBuilder = url.includes("local.builder.io") || url.includes("localhost:1234");
                 const isLocalAiAssistant = url.includes("localhost:7242");
-                const isProdAiAssistant = url.includes("https://ai-assistant");
+                const isProdAiAssistant = url.includes("https://assistant.builder.io");
                 const isRootOrg = document.body.innerHTML.includes("d3e7739f05c5462bad48687394709cb2");
                 const isAdminTestOrg = document.body.innerHTML.includes("d3932a87091340008e251024533e0207");
                 const isPersonalOrg = document.body.innerHTML.includes("c49bd068972749829e2f2ccc01b930ea");
