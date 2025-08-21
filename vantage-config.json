@@ -1,0 +1,44 @@
+[
+  {
+    "color": "green",
+    "label": "3.0 - Preview",
+    "urls": [
+      "vantage-preview-2.abbyy.com"
+    ]
+  },
+  {
+    "color": "green",
+    "label": "3.0 - Staging",
+    "urls": [
+      "vantage-staging.abbyy.dev"
+    ]
+  },
+  {
+    "color": "green",
+    "label": "3.0 - Testing",
+    "urls": [
+      "vantage-testing.abbyy.dev"
+    ]
+  },
+  {
+    "color": "red",
+    "label": "2.7 - Staging",
+    "urls": [
+      "vtgstaging-p.abbyy.dev"
+    ]
+  },
+  {
+    "color": "red",
+    "label": "2.7 - scim",
+    "urls": [
+      "v2dev2-scim.temp.abbyy.dev"
+    ]
+  },
+  {
+    "color": "red",
+    "label": "2.7 - hadam",
+    "urls": [
+      "v2dev2-hadam.temp.abbyy.dev"
+    ]
+  }
+]

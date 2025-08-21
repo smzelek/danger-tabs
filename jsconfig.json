@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "types": [
+      "chrome-types"
+    ]
+  },
+  "include": [
+    "**/*.js",
+    "**/*.d.ts"
+  ]
+}

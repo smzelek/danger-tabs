@@ -1,23 +1,23 @@
 {
-    "manifest_version": 3,
-    "name": "Danger Tabs",
-    "version": "1.0",
-    "description": "Add warnings for specific tabs with specific content for people developing against local vs prod sites in multiple tabs.",
-    "permissions": [
-        "tabs",
-        "activeTab",
-        "scripting",
-        "storage",
-        "webNavigation"
-    ],
-    "host_permissions": [
-        "*://*/*"
-    ],
-    "background": {
-        "service_worker": "background.js"
-    },
-    "action": {
-        "default_popup": "popup.html"
-    },
-    "options_page": "popup.html"
+  "manifest_version": 3,
+  "name": "Danger Tabs",
+  "version": "1.0",
+  "description": "Add warnings for specific tabs with specific content for people developing against local vs prod sites in multiple tabs.",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "popup.html"
 }
